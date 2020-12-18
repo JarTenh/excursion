@@ -4,26 +4,77 @@
 }
 
 /* Universal styles */
+
 html {
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
 }
 
-/* Header section */
-header {
-    text-align: center;
+a {
+    color: aquamarine;
+    margin: 0 auto;
+    text-decoration: none;
 }
 
-header h1 {
+h1 {
     color: white;
     font-size: 50px;
     font-weight: normal;
     padding: 30px 0;
 }
 
-header a {
-    color: aquamarine;
-    margin: 0 auto;
-    text-decoration: none;
+/* Header section */
+
+header {
+    text-align: center;
+}
+
+
+/* Main section: phone */
+
+.container {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.container video {
+    z-index: 10;
+}
+
+/* Main section: travel-guide */
+
+.travel-guide {
+    text-align: center;
+}
+
+.travel-guide h2 {
+    font-size: 42px;
+    font-weight: 300;
+    color: white;
+}
+
+.travel-guide p {
+    font-size: 21px;
+    color: gray;
+    margin: 30px 0;
+}
+
+.travel-guide img {
+    height: 100%;
+    width: auto;
+    margin: 30px 0;
+}
+
+/* Footer section */
+
+.image-container {
+    text-align: center;
+    margin: 30px 0;
+}
+
+#excursion {
+    color: gray;
+    text-align: right;
+    margin: 10px 60px;
 }
